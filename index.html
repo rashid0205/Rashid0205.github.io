@@ -103,12 +103,204 @@
       <div>
         <h1 class="title">Hi, I'm Rashid — turning data into clear decisions.</h1>
         <p class="subtitle">MSc IT with Data Analytics — University of the West of Scotland, London. Focused on Python, SQL, Tableau and actionable insights.</p>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rashid Nuraliev | Data Analyst Portfolio</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Rashid Nuraliev — Data Analyst skilled in Python, SQL, and Tableau. Explore projects, dashboards, and certificates." />
+  <meta name="keywords" content="Rashid Nuraliev, Data Analyst, Python, SQL, Tableau, Portfolio, London, UWS" />
+  <meta name="author" content="Rashid Nuraliev" />
+  <link rel="canonical" href="https://rashidnuraliev.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rashid Nuraliev | Data Analyst Portfolio">
+  <meta property="og:description" content="Projects, dashboards and credentials by Rashid Nuraliev.">
+  <meta property="og:url" content="https://rashidnuraliev.com/">
+  <meta property="og:image" content="https://rashidnuraliev.com/profile.jpg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rashid Nuraliev | Data Analyst Portfolio">
+  <meta name="twitter:description" content="Projects, dashboards and credentials by Rashid Nuraliev.">
+  <meta name="twitter:image" content="https://rashidnuraliev.com/profile.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico">
+
+  <!-- Styles -->
+  <style>
+    :root{
+      --bg:#0a2540;--bg-soft:#f5f7fb;--accent:#0ea5e9;--card:#ffffff;
+      --text:#0f172a;--muted:#475569;--ring:rgba(14,165,233,.35);
+      --radius:14px;--shadow:0 10px 24px rgba(2,8,23,.08);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--text);background:var(--bg-soft);scroll-behavior:smooth}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1100px;margin:0 auto;padding:0 20px}
+
+    /* NAV */
+    nav{position:sticky;top:0;z-index:20;background:var(--bg);color:#fff;box-shadow:0 4px 16px rgba(2,8,23,.2);}
+    nav .wrap{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+    .brand{font-weight:700;letter-spacing:.2px}
+    .nav-links{display:flex;gap:22px}
+    .nav-links a{color:#e2e8f0}
+    .nav-links a:hover{color:#fff}
+
+    /* HERO */
+    header.hero{background:linear-gradient(180deg,var(--bg) 0%,#144a77 100%);color:#fff;padding:70px 0 60px;}
+    .hero-wrap{display:grid;grid-template-columns:1.3fr .7fr;gap:28px;align-items:center}
+    .title{font-size:38px;line-height:1.15;margin:0 0 10px}
+    .subtitle{color:#cbd5e1;margin:0 0 24px}
+    .cta{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{display:inline-block;padding:12px 18px;border-radius:12px;font-weight:600;box-shadow:var(--shadow);border:1px solid transparent}
+    .btn-primary{background:#22d3ee;color:#083344;border-color:#06b6d4}
+    .btn-ghost{background:#0b2f52;color:#e2e8f0;border-color:#1e3a5f}
+    .btn:hover{transform:translateY(-1px)}
+
+    .card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:24px}
+    section{padding:36px 0}
+    h2.section-title{margin:0 0 14px;color:#0b2f52}
+    p.lead{color:var(--muted);margin-top:0}
+
+    .grid{display:grid;gap:18px}
+    .grid.cols-3{grid-template-columns:repeat(3,1fr)}
+    @media (max-width:900px){.hero-wrap{grid-template-columns:1fr}.grid.cols-3{grid-template-columns:repeat(2,1fr)}}
+    @media (max-width:640px){.grid.cols-3{grid-template-columns:1fr}.title{font-size:30px}}
+
+    .project{display:flex;flex-direction:column;gap:10px}
+    .badge{display:inline-block;font-size:12px;background:#e6f9ff;color:#0369a1;border:1px solid #bae6fd;border-radius:999px;padding:4px 8px}
+    .links{display:flex;gap:10px;flex-wrap:wrap}
+    .chip{display:inline-block;padding:8px 10px;border-radius:10px;border:1px solid #dbeafe;background:#f8fafc;font-weight:600;color:#0ea5e9}
+    .chip:hover{background:#eef6ff}
+
+    .contact-box{display:grid;grid-template-columns:1.1fr .9fr;gap:18px}
+    @media (max-width:840px){.contact-box{grid-template-columns:1fr}}
+    .contact-form input,.contact-form textarea{width:100%;padding:12px 14px;border-radius:12px;border:1px solid #cbd5e1;background:#fff;outline:none}
+    .contact-form input:focus,.contact-form textarea:focus{box-shadow:0 0 0 6px var(--ring);border-color:#7dd3fc}
+    .contact-form textarea{min-height:120px;resize:vertical}
+
+    footer{padding:18px 0;color:#64748b;text-align:center}
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="container wrap">
+      <div class="brand">Rashid Nuraliev • Data Analyst</div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#certs">Certificates</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container hero-wrap">
+      <div>
+        <h1 class="title">Hi, I'm Rashid — turning data into clear decisions.</h1>
+        <p class="subtitle">MSc IT with Data Analytics — University of the West of Scotland, London. Focused on Python, SQL, Tableau and actionable insights.</p>
         <div class="cta">
           <a class="btn btn-primary" href="#projects">View Projects</a>
           <a class="btn btn-ghost" href="mailto:rashidnuraliev0@gmail.com">Contact Me</a>
           <a class="btn btn-ghost" href="https://github.com/Rashid0205" target="_blank">GitHub</a>
           <a class="btn btn-ghost" href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank">LinkedIn</a>
         </div>
+      </div>
+      <div class="card">
+        <img src="profile.jpg" alt="Rashid Nuraliev" style="width:100%;border-radius:12px">
+        <p class="note" style="margin-top:10px">Upload <b>profile.jpg</b> to show your photo here.</p>
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <div class="card">
+        <h2 class="section-title">About Me</h2>
+        <p class="lead">I’m a Data Analyst passionate about Python, SQL, and Tableau. I enjoy solving problems, finding patterns in complex data, and creating dashboards that support decision-making.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <div class="card">
+        <h2 class="section-title">Projects</h2>
+        <div class="grid cols-3" style="margin-top:10px">
+          <div class="card project">
+            <div class="badge">Excel</div>
+            <h3>Covid Data Dashboard</h3>
+            <p class="note">Visualized Covid-19 trends with Pivot Charts.</p>
+            <div class="links"><a class="chip" href="#">View</a></div>
+          </div>
+          <div class="card project">
+            <div class="badge">Python</div>
+            <h3>E-commerce EDA</h3>
+            <p class="note">Exploratory Data Analysis using Pandas and Matplotlib.</p>
+            <div class="links"><a class="chip" href="#">Code</a></div>
+          </div>
+          <div class="card project">
+            <div class="badge">Tableau</div>
+            <h3>UK Crime Dashboard</h3>
+            <p class="note">Interactive crime analysis dashboard for London data.</p>
+            <div class="links"><a class="chip" href="#">Dashboard</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certs">
+    <div class="container">
+      <div class="card">
+        <h2 class="section-title">Certificates</h2>
+        <ul>
+          <li>IBM Data Analysis with Python</li>
+          <li>Google Data Analytics — Coursera</li>
+          <li>Tableau — Dashboards and Visualization</li>
+          <li>SQL — Intermediate Queries</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="card contact-box">
+        <div>
+          <h2 class="section-title">Contact</h2>
+          <p>Email me directly or use the form to send a message.</p>
+          <p><b>Email:</b> <a href="mailto:rashidnuraliev0@gmail.com">rashidnuraliev0@gmail.com</a></p>
+          <p><b>GitHub:</b> <a href="https://github.com/Rashid0205" target="_blank">github.com/Rashid0205</a></p>
+          <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank">linkedin.com/in/YOUR_LINKEDIN</a></p>
+        </div>
+        <form class="contact-form" action="mailto:rashidnuraliev0@gmail.com" method="post" enctype="text/plain">
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="Your email" required />
+          <textarea name="message" placeholder="Your message..." required></textarea>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>© <span id="y"></span> Rashid Nuraliev — Built with GitHub Pages</footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
       </div>
       <div class="card">
         <img src="profile.jpg" alt="Rashid Nuraliev" style="width:100%;border-radius:12px">
